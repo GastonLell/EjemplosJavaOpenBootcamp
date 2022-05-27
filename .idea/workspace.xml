@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc1bb0d7-3c08-4a82-87b7-4272d9ad35ce" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ejercicios-tema3-funciones.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EstructuraDeControl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +39,14 @@
     "last_opened_file_path": "C:/Users/Usuario/IdeaProjects/ejercicios-tema3-funciones/src/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.EstructuraDeControl">
+    <configuration name="EstructuraDeControl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EstructuraDeControl" />
+      <module name="ejercicios-tema3-funciones" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="ejercicios-tema3-funciones" />
@@ -65,11 +67,13 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.EstructuraDeControl" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Java Scratch.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EstructuraDeControl" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>

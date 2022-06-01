@@ -2,50 +2,47 @@
 public class Main {
 
     public static void main(String[] args){
+        Persona user = new Persona();
 
-        Coche coche = new Coche(3, 180);
+        user.setEdad(20);
+        user.setNombre("Pedro");
+        user.setTelefono("3434543543");
 
-        System.out.println(coche.puertas);
-
-        coche.setAcelerar(200);
-
-        System.out.println(coche.getVelocidadActual());
+        System.out.println(user.getEdad());
+        System.out.println(user.getNombre());
+        System.out.println(user.getTelefono());
 
     }
 
 }
 
-class Coche {
-    int puertas = 4;
-    int velocidadMaxima;
-    private float velocidadActual;
+class Persona{
+    private int edad;
+    private String nombre;
+    private String telefono;
 
-    //sobrecarga de constructores
-    public Coche(){
-        System.out.println("constructor sin argumentos");
-        this.puertas = 5;
-        velocidadMaxima = 90;
+    public void setEdad(int edad){
+        this.edad = edad;
     }
 
-    public Coche(int puertas, int velocidad){
-        System.out.println("constructor con argumentos");
-
-        this.puertas = puertas;
-        velocidadMaxima = velocidad;
+    public int getEdad(){
+        return this.edad;
     }
 
-    public void setAcelerar(int value){
-        if(value > this.velocidadMaxima){
-            this.velocidadActual = this.velocidadMaxima;
-        } else {
-            this.velocidadActual += value;
-        }
+    public void setNombre(String nombre){
+        this.nombre = nombre;
     }
-    public void setDesacelerar(){
-        this.velocidadActual -= 15;
+
+    public String getNombre(){
+        return this.nombre;
     }
-    public float getVelocidadActual(){
-        return this.velocidadActual;
+
+    public void setTelefono(String telefono){
+        this.telefono = telefono;
+    }
+
+    public String getTelefono(){
+        return this.telefono;
     }
 }
 
